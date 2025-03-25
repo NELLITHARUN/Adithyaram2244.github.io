@@ -91,6 +91,25 @@ section{
     color:var(--orange);
 }
 
+.logo-container {
+    display: flex;
+    align-items: center; /* Aligns logo and text vertically */
+    gap: 10px; /* Adjust spacing between logo and text */
+}
+
+.logo-container img {
+    height: 5.5rem;
+}
+
+.company-name {
+    font-size: 1.5rem; /* Adjust size as needed */
+    line-height: 5.5rem; /* Matches image height for vertical centering */
+    font-style: italic;
+    position: relative;
+    top: -15px;
+}
+
+
 .header .navbar a{
     font-size: 1.7rem;
     margin:0 1rem;
@@ -292,6 +311,7 @@ section{
     text-align: center;
     width:1000rem;
     margin-top: 20%;
+    margin-left: 5%;
 }
 
 .home .content h3{
